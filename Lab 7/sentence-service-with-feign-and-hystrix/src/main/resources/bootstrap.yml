@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8011/eureka/
+
+server:
+  port: 7010
+
+spring:
+  application:
+    name: sentence-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
