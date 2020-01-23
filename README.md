@@ -13,5 +13,5 @@
 ##### Lab-7: Hystrix
   - Practice eureka server with feign and hystrix circuit breaker.
 
-##### Lab-9: zuul gateway
+##### Lab-9: Zuul gateway
   - Practice eureka server with zuul gateway.
